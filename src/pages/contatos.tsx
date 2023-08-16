@@ -50,7 +50,7 @@ const Contatos = () => {
                 className="text-sm md:text-lg text-slate-300 underline truncate"
                 href="https://www.youtube.com/huri3l"
                 >
-                  https://www.youtube.com/huri3l
+                  https://www.youtube.com/huriel
               </a>
             </div>
           </li>
