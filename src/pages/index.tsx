@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Sobre Mim | Huriel</title>
+        <title>Sobre Mim | Gustavo</title>
         <meta
           name="description"
           content="Sou um desenvolvedor front-end apaixonado por criar interfaces e ajudar outros devs!"
