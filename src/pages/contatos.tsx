@@ -48,7 +48,7 @@ const Contatos = () => {
             <div className="flex gap-1 md:gap-3 items-center">
               <a 
                 className="text-sm md:text-lg text-slate-300 underline truncate"
-                href="https://www.youtube.com/huri3l"
+                href="https://www.youtube.com/huriel"
                 >
                   https://www.youtube.com/huriel
               </a>
