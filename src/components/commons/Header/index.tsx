@@ -4,23 +4,18 @@ import { Roboto } from "next/font/google";
 import { Menu } from "./menu";
 import {useCallback, useState} from 'react'; 
 import { MenuIcon } from "@/components/icons/menulton";
-
 const roboto = Roboto({
   subsets: ["latin"],
   weight: "500",
 });
-
 export const Header = () => {
 const [isMenuOpen, setIsMenuOpen] = useState (false);
-
 const openMenu = useCallback(() => {
   setIsMenuOpen(true);
 }, []);
-
 const closeMenu = useCallback(() => {
   setIsMenuOpen(false);
 }, []);
-
   return (
     <header
       className={`${roboto.className} bg-h-blue-900 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}
