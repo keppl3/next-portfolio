@@ -6,7 +6,7 @@ interface ProjectsProp{
 
 export const Projects = ({projects}: ProjectsProp) => {
     return(
-        <article>
+        <div>
             <h2>projetos recentes</h2>
 
             <ul>
@@ -14,6 +14,6 @@ export const Projects = ({projects}: ProjectsProp) => {
                     
                 ))}              
             </ul>
-        </article>
+        </div>
     );
 };
