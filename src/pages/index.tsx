@@ -8,7 +8,8 @@ const Home = () => {
       slug: "natura-whitelabel",
       name: "natura whitelabel",
       image: {
-        url:'https://avatars.githubusercontent.com/u/36538415?v=4'
+        url:'https://avatars.githubusercontent.com/u/36538415?v=4',
+        alt:"pagina inicial do site da natura"
       }
     }
   ]
