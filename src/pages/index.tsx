@@ -1,7 +1,17 @@
 import { AboutMe } from "@/components/Home/AboutMe";
+import { Projects } from "@/components/Home/Projects";
 import Head from "next/head";
 
 const Home = () => {
+  const projects =[
+    {
+      slug: "natura-whitelabel",
+      name: "natura whitelabel",
+      image: {
+        url:'https://avatars.githubusercontent.com/u/36538415?v=4'
+      }
+    }
+  ]
   return (
     <>
       <Head>
@@ -13,6 +23,7 @@ const Home = () => {
       </Head>
       <div className="py-12 px-6 md:px-32 space-y-8 md:space-y-10 lg:space-y-12">
         <AboutMe />
+        <Projects projects={projects}/>
       </div>
     </>
   );
